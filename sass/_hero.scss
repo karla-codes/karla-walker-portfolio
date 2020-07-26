@@ -1,10 +1,10 @@
 .hero {
-  margin-top: 9rem;
+  margin-top: 4rem;
 
   &__intro {
     font-family: 'MuseoModerno', cursive;
-    font-size: $font-mb-hero;
-    line-height: 4rem;
+    font-size: $font-lrg;
+    line-height: 3.5rem;
   }
 
   &__nav {
@@ -13,14 +13,12 @@
 
   &__nav-links {
     padding: .3rem;
-    width: 10rem;
+    font-size: $font-xsm;
   }
 
   &__arrow {
-    display: block;
-    position: absolute;
-    top: 50rem;
-    left: 50%;
+    margin-top: 10%;
+    margin-left: 20%;
   }
 
 }

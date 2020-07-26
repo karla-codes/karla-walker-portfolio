@@ -1,0 +1,59 @@
+.projects {
+  margin-top: 25rem;
+
+  &__heading {
+    font-size: $font-med;
+  }
+
+  &__container {
+    width: 100%;
+    margin-top: 4rem;
+    font-size: $font-xsm;
+    box-shadow: 0px 0px 14px 4px rgba(0, 49, 134, 0.2);
+  }
+
+  &__img {
+    margin: 2.6rem 2.2rem;
+    height: 33rem;
+    width: calc(100% - 4.4rem)
+  }
+
+  &__dsc {
+    margin: 0 2.2rem;
+    width: calc(100% - 4.4rem);
+
+    &-heading {
+      font-size: $font-sm;
+    }
+
+    &-text {
+      margin-top: .8rem;
+      font-size: $font-xsm;
+      line-height: 1.4;
+      width: 100%;
+    }
+  }
+
+  &__tag-container {
+    width: 60%;
+  }
+
+  &__tag {
+    margin-top: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__tag:not(:first-child) {
+    margin-left: .8rem;
+  }
+
+  &__link-container {
+    margin-top: 1.6rem;
+    margin-bottom: 3.5rem;
+  }
+
+  &__link:not(:first-child) {
+    margin-left: 1.6rem;
+  }
+}
