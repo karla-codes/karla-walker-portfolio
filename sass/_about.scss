@@ -1,0 +1,23 @@
+.about {
+  margin-top: 15rem;
+
+  &__heading {
+    font-size: $font-med;
+  }
+
+  &__img {
+    margin: 4rem auto 0;
+    height: 36rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__txt-container {
+    margin-top: 4rem;
+    font-size: $font-xsm;
+  }
+
+  &__txt:not(:first-child) {
+    margin-top: 3.2rem;
+  }
+}
