@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #1B071C;
+  padding: 3rem; }
+
+a,
+a:link,
+a:visited,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: #0052DF; }
+
+h1,
+h2 {
+  font-family: 'MuseoModerno', cursive; }
+
+.flex {
+  display: flex; }
+  .flex-jc-sb {
+    justify-content: space-between; }
+  .flex-jc-c {
+    justify-content: center; }
+  .flex-ai-c {
+    align-items: center; }
+  .flex-fd-c {
+    flex-direction: column; }
+  .flex-fd-r {
+    flex-direction: row; }
+
+.header .toggle {
+  justify-content: flex-end; }
+
+.header .toggle-img {
+  height: 3rem; }
+
+.hero {
+  margin-top: 9rem; }
+  .hero__intro {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 3.5rem;
+    line-height: 4rem; }
+  .hero__nav {
+    margin-top: 3rem; }
+  .hero__nav-links {
+    padding: .3rem;
+    width: 10rem; }
+  .hero__arrow {
+    display: block;
+    position: absolute;
+    top: 50rem;
+    left: 50%; }

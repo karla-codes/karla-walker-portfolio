@@ -3,34 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Space+Mono:wght@400;700&display=swap"
     rel="stylesheet">
   <title>Karla Walker - Creative Web Developer</title>
 </head>
 
 <body>
-  <header class="header">
-    <div class="toggle">
+  <header class="header flex flex-fd-c">
+    <div class="toggle flex flex-fd-r">
       <!-- toggle for dark/light mode will go here -->
+      <svg class="toggle-img" width="104" height="26" viewBox="0 0 104 26" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <rect x="35" y="1" width="42" height="24" rx="4" stroke="black" stroke-opacity="0.87" stroke-width="2" />
+        <rect x="38" y="4" width="16" height="18" rx="5" fill="black" fill-opacity="0.87" />
+        <circle cx="12.5" cy="12.5" r="6.66667" fill="black" />
+        <line x1="12" y1="3.33333" x2="12" y2="-4.98493e-06" stroke="black" />
+        <line x1="12" y1="25" x2="12" y2="20.8333" stroke="black" />
+        <line x1="4.16669" y1="12.1667" x2="2.05477e-05" y2="12.1667" stroke="black" />
+        <line x1="25" y1="12.1667" x2="21.6667" y2="12.1667" stroke="black" />
+        <line x1="7.69199" y1="5.17229" x2="5.81699" y2="1.92469" stroke="black" />
+        <line x1="18.317" y1="23.5753" x2="16.442" y2="20.3277" stroke="black" />
+        <line x1="4.6723" y1="8.55801" x2="1.42471" y2="6.68301" stroke="black" />
+        <line x1="23.0753" y1="19.183" x2="19.8277" y2="17.308" stroke="black" />
+        <line x1="16.442" y1="4.67229" x2="18.317" y2="1.42469" stroke="black" />
+        <line x1="5.81699" y1="23.0753" x2="7.69199" y2="19.8277" stroke="black" />
+        <line x1="19.8277" y1="7.69199" x2="23.0753" y2="5.81699" stroke="black" />
+        <line x1="1.42468" y1="18.317" x2="4.67228" y2="16.442" stroke="black" />
+        <path
+          d="M97.3157 6.52701C96.3017 6.08022 95.1922 5.89325 94.0878 5.98302C92.9833 6.07278 91.9186 6.43644 90.99 7.04111C90.0614 7.64578 89.2981 8.47239 88.7693 9.44618C88.2404 10.42 87.9627 11.5102 87.9611 12.6184C87.9595 13.7265 88.2342 14.8175 88.7603 15.7928C89.2864 16.7681 90.0473 17.5968 90.9742 18.2041C91.9011 18.8114 92.9648 19.1781 94.069 19.271C95.1732 19.3639 96.2832 19.18 97.2985 18.7361L94.6278 12.6278L97.3157 6.52701Z"
+          fill="black" />
+      </svg>
     </div>
 
-    <section class="hero">
+    <section class="hero flex flex-fd-c">
       <p class="hero__intro">Hello! I’m Karla Walker, a creative web developer focused on creating delightful and
         impactful experiences.
       </p>
-      <nav class="hero__nav">
-        <div class="hero__nav-box">
-          <a href="#projects" class="hero__nav-links">
-            Projects
-          </a>
-          <a href="#about" class="hero__nav-links">
-            About
-          </a>
-          <a href="#contact" class="hero__nav-links">
-            Contact
-          </a>
-        </div>
+      <nav class="hero__nav flex flex-fd-c">
+        <a href="#projects" class="hero__nav-links">
+          Projects
+        </a>
+        <a href="#about" class="hero__nav-links">
+          About
+        </a>
+        <a href="#contact" class="hero__nav-links">
+          Contact
+        </a>
       </nav>
       <svg class="hero__arrow" width="65" height="163" viewBox="0 0 65 163" fill="none"
         xmlns="http://www.w3.org/2000/svg">

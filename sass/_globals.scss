@@ -12,4 +12,50 @@ html {
 
 body {
   box-sizing: border-box;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: $color-black;
+  padding: 3rem;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: $color-primary;
+}
+
+h1,
+h2 {
+  font-family: 'MuseoModerno', cursive;
+}
+
+// Flexbox
+
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+
+  &-fd-c {
+    flex-direction: column;
+  }
+
+  &-fd-r {
+    flex-direction: row;
+  }
+
 }
