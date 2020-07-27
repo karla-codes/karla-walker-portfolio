@@ -1,0 +1,22 @@
+.contact {
+  margin-top: 15rem;
+
+  &__heading {
+    font-size: $font-med;
+    margin-bottom: 3rem;
+  }
+
+  &__txt {
+    font-size: $font-xsm;
+  }
+
+  &__social {
+    margin-top: 3rem;
+    width: 15.2rem;
+  }
+
+  .copy {
+    margin-top: 6.2rem;
+    font-size: 1rem;
+  }
+}

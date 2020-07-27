@@ -31,6 +31,8 @@ a:focus {
 h1,
 h2 {
   font-family: 'MuseoModerno', cursive;
+  display: flex;
+  justify-content: flex-start;
 }
 
 // Flexbox
@@ -58,4 +60,10 @@ h2 {
     flex-direction: row;
   }
 
+}
+
+// Styles
+
+.uppercase {
+  text-transform: uppercase;
 }

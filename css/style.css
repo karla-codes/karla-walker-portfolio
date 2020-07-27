@@ -26,7 +26,9 @@ a:focus {
 
 h1,
 h2 {
-  font-family: 'MuseoModerno', cursive; }
+  font-family: 'MuseoModerno', cursive;
+  display: flex;
+  justify-content: flex-start; }
 
 .flex {
   display: flex; }
@@ -40,6 +42,9 @@ h2 {
     flex-direction: column; }
   .flex-fd-r {
     flex-direction: row; }
+
+.uppercase {
+  text-transform: uppercase; }
 
 .header .toggle {
   justify-content: flex-end; }
@@ -102,9 +107,9 @@ h2 {
 .about {
   margin-top: 15rem; }
   .about__heading {
-    font-size: 2rem; }
+    font-size: 2rem;
+    margin-bottom: 4rem; }
   .about__img {
-    margin: 4rem auto 0;
     height: 36rem;
     width: 100%;
     object-fit: cover; }
@@ -113,3 +118,31 @@ h2 {
     font-size: 1.4rem; }
   .about__txt:not(:first-child) {
     margin-top: 3.2rem; }
+  .about__skills {
+    margin-top: 4rem;
+    margin-bottom: 1rem; }
+    .about__skills-heading {
+      font-size: 1.8rem; }
+    .about__skills-list {
+      list-style: none;
+      font-size: 1.4rem;
+      padding-top: 1rem; }
+      .about__skills-list .skills {
+        padding-bottom: .3rem; }
+    .about__skills-subheading {
+      font-size: 1.4rem;
+      margin-top: 3rem; }
+
+.contact {
+  margin-top: 15rem; }
+  .contact__heading {
+    font-size: 2rem;
+    margin-bottom: 3rem; }
+  .contact__txt {
+    font-size: 1.4rem; }
+  .contact__social {
+    margin-top: 3rem;
+    width: 15.2rem; }
+  .contact .copy {
+    margin-top: 6.2rem;
+    font-size: 1rem; }
