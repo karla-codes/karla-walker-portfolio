@@ -3,6 +3,10 @@
 
   &__heading {
     font-size: $font-med;
+
+    @include mobile {
+      font-size: $font-lrg;
+    }
   }
 
   &__container {
