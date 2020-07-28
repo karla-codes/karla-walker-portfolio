@@ -1,24 +1,63 @@
 .hero {
-  margin-top: 4rem;
+  margin-top: 20%;
+
+  @include desktop {
+    margin-top: 10%;
+  }
 
   &__intro {
     font-family: 'MuseoModerno', cursive;
     font-size: $font-lrg;
     line-height: 3.5rem;
+
+    @include mobile {
+      font-size: $font-mb-hero;
+      line-height: 4rem;
+    }
+
+    @include tablet {
+      font-size: $font-tb-hero;
+      line-height: 5.8rem;
+    }
+
+    @include desktop {
+      width: 90%;
+    }
   }
 
   &__nav {
     margin-top: 3rem;
   }
 
+  &__nav-container {
+    flex-direction: column;
+
+    @include tablet {
+      flex-direction: row;
+    }
+  }
+
   &__nav-links {
     padding: .3rem;
     font-size: $font-xsm;
+
+    @include mobile {
+      font-size: $font-sm;
+    }
+
+    @include tablet {
+      margin-right: 2.4rem;
+    }
   }
 
   &__arrow {
     margin-top: 10%;
     margin-left: 20%;
+
+    @include tablet {
+      margin-top: 1.6rem;
+      margin-left: 2.4rem;
+    }
   }
 
 }

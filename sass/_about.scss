@@ -4,17 +4,46 @@
   &__heading {
     font-size: $font-med;
     margin-bottom: $heading-margin;
+
+    @include mobile {
+      font-size: $font-lrg;
+    }
+  }
+
+  &__container {
+    flex-direction: column;
+
+    @include desktop {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
   }
 
   &__img {
     height: 36rem;
     width: 100%;
     object-fit: cover;
+
+    @include tablet {
+      height: 30rem;
+      width: 100%;
+      object-position: 50% 20%;
+    }
+
+    @include desktop {
+      height: 100%;
+      width: 40%;
+    }
   }
 
   &__txt-container {
     margin-top: $heading-margin;
     font-size: $font-xsm;
+
+    @include desktop {
+      width: 50%;
+      margin-top: 0;
+    }
   }
 
   &__txt:not(:first-child) {
@@ -27,6 +56,10 @@
 
     &-heading {
       font-size: $font-sm;
+
+      @include mobile {
+        font-size: $font-subheading;
+      }
     }
 
     &-list {
@@ -46,7 +79,7 @@
   }
 
   &__resume {
-    // font-size: $font-xsm;
+    font-size: $font-sm;
 
   }
 }
